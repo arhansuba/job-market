@@ -1,0 +1,36 @@
+﻿@model IEnumerable<JobMarket.Models.JobCategoryViewModels.JobCategoryViewModel>
+
+@{
+    ViewData["Title"] = "Job Category";
+}
+
+<h3>@ViewData["Title"]</h3>
+<hr />
+<p>
+    <a asp-action="Create" class="btn btn-success btn-sm">Create</a>
+</p>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <p asp-display-for="@item.Name"></p>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.JobCategoryId" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.JobCategoryId" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.JobCategoryId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

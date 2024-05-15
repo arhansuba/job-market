@@ -1,0 +1,36 @@
+﻿@model IEnumerable<JobMarket.Models.JobOfferViewModels.PopularJobOfferViewModel>
+
+@{
+    ViewData["Title"] = "Popular job offers";
+}
+<hr/>
+<h2 class="text-center" id="popularOffersTitle">@ViewData["Title"]:</h2>
+<hr/>
+<table class="table table-striped" style="width: 70%; margin: auto;">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JobCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JobType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Wage)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        @Html.Partial("_PopularPartial", item)
+    }
+    </tbody>
+</table>

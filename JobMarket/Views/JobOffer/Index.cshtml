@@ -1,0 +1,89 @@
+﻿@using JobMarket.Services.Abstract
+@model IEnumerable<JobMarket.Models.JobOfferViewModels.JobOfferViewModel>
+@inject IAuthService AuthService
+
+@{
+    ViewData["Title"] = "Job offers";
+}
+
+<h3>@ViewData["Title"] <span class="badge">@ViewData["JobOfferCount"]</span></h3>
+<hr />
+<p>
+
+</p>
+<form asp-action="Search" method="get" class="form-inline">
+    @if (await AuthService.IsSignedIn(User))
+    {
+        <a asp-action="Create" class="btn btn-success btn-sm">Create</a>
+    }
+    <input name="phrase" class="form-control input-sm" placeholder="@ViewData["phrase"]" autofocus/>
+    <input type="submit" value="Search" class="btn btn-default btn-sm"/>
+</form>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PostalCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JobCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JobType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Wage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Submitted)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <p asp-display-for="@item.Author.Email"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.PostalCode"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.Title"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.JobCategory.Name"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.JobType.Name"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.Wage"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.Submitted"></p>
+            </td>
+            <td>
+                @if (@item.CanEdit)
+                {
+                    <a asp-action="Edit" asp-route-id="@item.JobOfferId" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.JobOfferId" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.JobOfferId" class="btn btn-danger btn-sm">Delete</a>
+                }
+                else
+                {
+                    <a asp-action="Details" asp-route-id="@item.JobOfferId" class="btn btn-info btn-sm">Details</a>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

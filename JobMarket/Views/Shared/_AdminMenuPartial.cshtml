@@ -1,0 +1,12 @@
+@using JobMarket.Helpers
+@using JobMarket.Services.Abstract
+
+@inject IAuthService AuthService
+@if (await AuthService.IsSignedIn(User) && await AuthService.IsInRole(AuthService.GetSignedUser(User), RoleHelper.Administrator))
+{
+    <ul class="nav navbar-nav">
+        <li><a asp-area="" asp-controller="Role" asp-action="Index">User roles</a></li>
+        <li><a asp-area="" asp-controller="JobType" asp-action="Index">Types</a></li>
+        <li><a asp-area="" asp-controller="JobCategory" asp-action="Index">Categories</a></li>
+    </ul>
+}

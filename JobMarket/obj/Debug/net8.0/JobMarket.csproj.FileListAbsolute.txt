@@ -1,0 +1,8 @@
+C:\Users\subas\source\repos\JobMarket\JobMarket\obj\Debug\net8.0\JobMarket.csproj.AssemblyReference.cache
+C:\Users\subas\source\repos\JobMarket\JobMarket\obj\Debug\net8.0\JobMarket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\subas\source\repos\JobMarket\JobMarket\obj\Debug\net8.0\JobMarket.AssemblyInfoInputs.cache
+C:\Users\subas\source\repos\JobMarket\JobMarket\obj\Debug\net8.0\JobMarket.AssemblyInfo.cs
+C:\Users\subas\source\repos\JobMarket\JobMarket\obj\Debug\net8.0\JobMarket.csproj.CoreCompileInputs.cache
+C:\Users\subas\source\repos\JobMarket\JobMarket\obj\Debug\net8.0\JobMarket.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\subas\source\repos\JobMarket\JobMarket\obj\Debug\net8.0\JobMarket.RazorAssemblyInfo.cache
+C:\Users\subas\source\repos\JobMarket\JobMarket\obj\Debug\net8.0\JobMarket.RazorAssemblyInfo.cs

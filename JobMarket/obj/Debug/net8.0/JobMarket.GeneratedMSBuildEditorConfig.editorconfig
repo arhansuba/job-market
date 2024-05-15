@@ -1,0 +1,139 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JobMarket
+build_property.RootNamespace = JobMarket
+build_property.ProjectDir = C:\Users\subas\source\repos\JobMarket\JobMarket\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\subas\source\repos\JobMarket\JobMarket
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Account/SignedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduZWRPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobCategory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobOffer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobOffer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobOffer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobOffer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobOffer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobOffer/Popular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJcUG9wdWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobOffer/_PopularPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJcX1BvcHVsYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iVHlwZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobType/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iVHlwZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iVHlwZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iVHlwZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/JobType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iVHlwZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Shared/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Shared/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Shared/_AdminMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbk1lbnVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/subas/source/repos/JobMarket/JobMarket/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-icjibykfb0

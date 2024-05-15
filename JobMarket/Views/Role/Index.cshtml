@@ -1,0 +1,38 @@
+﻿@model IEnumerable<JobMarket.Models.RoleViewModels.RoleViewModel>
+
+@{
+    ViewData["Title"] = "Role";
+}
+
+<h3>@ViewData["Title"]</h3>
+<hr/>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ApplicationUser.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Roles)
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <p asp-display-for="@item.ApplicationUser.Email"></p>
+            </td>
+            <td>
+                <form asp-action="ChangeRole">
+                    <input type="hidden" asp-for="@item.ApplicationUserId" name="applicationUserId"/>
+                    <select asp-for="@item.RoleId" name="newRoleId" onchange="this.form.submit()" class="form-control"
+                            asp-items="@(new SelectList(@item.Roles, "Id", "Name", @item.RoleId))" disabled="@item.Disabled">
+                    </select>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
